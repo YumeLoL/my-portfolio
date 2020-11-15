@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="67" height="67" viewBox="0 0 67 67">
+  <g id="Group_4" data-name="Group 4" transform="translate(-238 -166)">
+    <rect id="Rectangle_1" data-name="Rectangle 1" width="67" height="67" transform="translate(238 166)" fill="#923b4c"/>
+    <g id="Group_3" data-name="Group 3" transform="translate(213 127)">
+      <g id="Group_1" data-name="Group 1">
+        <circle id="Ellipse_2" data-name="Ellipse 2" cx="2.5" cy="2.5" r="2.5" transform="translate(58 41)" fill="#fff5cb"/>
+        <circle id="Ellipse_3" data-name="Ellipse 3" cx="2.5" cy="2.5" r="2.5" transform="translate(44 45)" fill="#fff5cb"/>
+        <circle id="Ellipse_4" data-name="Ellipse 4" cx="2.5" cy="2.5" r="2.5" transform="translate(29 70)" fill="#fff5cb"/>
+        <circle id="Ellipse_5" data-name="Ellipse 5" cx="2.5" cy="2.5" r="2.5" transform="translate(58 99)" fill="#fff5cb"/>
+        <circle id="Ellipse_6" data-name="Ellipse 6" cx="2.5" cy="2.5" r="2.5" transform="translate(34 54)" fill="#fff5cb"/>
+        <circle id="Ellipse_7" data-name="Ellipse 7" cx="2.5" cy="2.5" r="2.5" transform="translate(72 45)" fill="#fff5cb"/>
+        <circle id="Ellipse_8" data-name="Ellipse 8" cx="2.5" cy="2.5" r="2.5" transform="translate(82 54)" fill="#fff5cb"/>
+        <circle id="Ellipse_9" data-name="Ellipse 9" cx="2.5" cy="2.5" r="2.5" transform="translate(34 85)" fill="#fff5cb"/>
+        <circle id="Ellipse_10" data-name="Ellipse 10" cx="2.5" cy="2.5" r="2.5" transform="translate(44 95)" fill="#fff5cb"/>
+        <circle id="Ellipse_11" data-name="Ellipse 11" cx="2.5" cy="2.5" r="2.5" transform="translate(72 95)" fill="#fff5cb"/>
+        <circle id="Ellipse_12" data-name="Ellipse 12" cx="2.5" cy="2.5" r="2.5" transform="translate(82 85)" fill="#fff5cb"/>
+        <circle id="Ellipse_13" data-name="Ellipse 13" cx="1.5" cy="1.5" r="1.5" transform="translate(59 49)" fill="#ffeca1"/>
+        <circle id="Ellipse_14" data-name="Ellipse 14" cx="1.5" cy="1.5" r="1.5" transform="translate(42 58)" fill="#ffeca1"/>
+        <circle id="Ellipse_15" data-name="Ellipse 15" cx="1.5" cy="1.5" r="1.5" transform="translate(76 58)" fill="#ffeca1"/>
+        <circle id="Ellipse_16" data-name="Ellipse 16" cx="1.5" cy="1.5" r="1.5" transform="translate(59 93)" fill="#ffeca1"/>
+        <circle id="Ellipse_17" data-name="Ellipse 17" cx="1.5" cy="1.5" r="1.5" transform="translate(76 84)" fill="#ffeca1"/>
+        <circle id="Ellipse_18" data-name="Ellipse 18" cx="1.5" cy="1.5" r="1.5" transform="translate(42 84)" fill="#ffeca1"/>
+        <circle id="Ellipse_19" data-name="Ellipse 19" cx="1.5" cy="1.5" r="1.5" transform="translate(38 71)" fill="#ffeca1"/>
+        <circle id="Ellipse_21" data-name="Ellipse 21" cx="1.5" cy="1.5" r="1.5" transform="translate(49 52)" fill="#ffeca1"/>
+        <circle id="Ellipse_22" data-name="Ellipse 22" cx="1.5" cy="1.5" r="1.5" transform="translate(49 90)" fill="#ffeca1"/>
+        <circle id="Ellipse_23" data-name="Ellipse 23" cx="1.5" cy="1.5" r="1.5" transform="translate(70 90)" fill="#ffeca1"/>
+        <circle id="Ellipse_24" data-name="Ellipse 24" cx="1.5" cy="1.5" r="1.5" transform="translate(70 52)" fill="#ffeca1"/>
+      </g>
+      <g id="Group_2" data-name="Group 2" transform="translate(-17 -48)">
+        <text id="Y" transform="translate(66 136)" fill="#f8e080" font-size="39" font-family="HanWangYenLight"><tspan x="0" y="0">Y</tspan></text>
+        <path id="Path_3" data-name="Path 3" d="M98.6,127.118c.469-.009,14.946.135,15.534.135s.632,1.622,0,1.639-14.981.017-15.534,0S98.13,127.127,98.6,127.118Z" transform="translate(-25.234 -18)" fill="#f8e080"/>
+      </g>
+    </g>
+  </g>
+</svg>

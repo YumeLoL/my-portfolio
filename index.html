@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/logo/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/logo/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/img/logo/favicon-16x16.png">
+  <link rel="manifest" href="/img/logo/site.webmanifest">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@900&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/0e1d4bf551.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/style.css">
+  <title>Yumeng Li</title>
+</head>
+<body>
+
+  <div>
+    <header id="header">
+      <!-- navbar -->
+      <nav>
+        <div class="container">
+          <a href="#header">
+            <img src="/img/logo/poits-LOGO.svg" alt="">
+            <img src="/img/logo/text-LOGO.svg" alt="">
+          </a>
+
+            <!-- click menu button -->
+          <input type="checkbox" id="barmenu">
+          <label class="location" for="barmenu">
+            <!-- create bars inside of 'label', then when click bars, checkbox be ticked -->
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </label>
+     
+
+          <!-- menu list icon and tag -->
+          <div class="menu-list">
+            <div class="icon">
+                <a class="icon-info" href="#about-me" data-tool-tip="About Me"><i class="fas fa-info"></i></a>             
+
+                <a href="#experience" data-tool-tip="My Projects"><i class="fab fa-connectdevelop" style="font-weight: bold;"></i></a>
+
+                <a href="#contact" data-tool-tip="Contact Me"><i class="far fa-paper-plane"></i></a>            
+
+                <a href="/media/Sample-Yumeng Li-Resume.pdf" target="_blank" type="application/pdf" data-tool-tip="View Resume"><i class="far fa-file-pdf"></i></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- intro header -->
+      <h1 class="big-title translatey" data-speed=".1">
+        <span> Hi, I am <strong style="color:#c54e3ce5; font-size: 6rem;">Yume</strong></span><br>
+        <span> A Web Developer ~ ~</span>
+      </h1>
+      <!-- class'translate': make elements to move -->
+      <!-- attribute'data-speed': put the speed of the movement -->
+      <img src="/img/me.png" class="me translatey" data-speed="-.15" alt="">
+      <img src="/img/background.jpg" class="background " alt="">
+      <img src="/img/trees.png" class="trees translatey" data-speed="-.3" alt="">
+      <!-- <img src="/img/nate-grant-QQ9LainS6tI-unsplash.jpg" class="background " alt="">  -->
+      <img src="/img/cloud3.png" class="cloud3 translater" data-speed=".3" alt="">
+      <img src="/img/cloud4.png" class="cloud4 translater" data-speed=".5" alt="">
+      <img src="/img/cloud5.png" class="cloud5 translatel" data-speed=".2" alt="">
+      <img src="/img/cloud6.png" class="cloud6 translatel" data-speed=".6" alt="">
+    </header>
+
+    <section id="about-me">
+      <!-- black shadow -->
+      <div class="shadow"></div>
+
+      <div class="container">
+        <div class="content opacity">
+          <h3 class="title">
+            Hi, I'm Yumeng Li
+            <!-- <div class="border"></div>   -->
+          </h3>
+          <p class="text ">I am a front-end developer in Melbourne, VIC. I am a graduate from <a class="inner-link" href="https://www.cqu.edu.au/" target="_blank" style="font-weight: 300;"> CQUniversity </a>and have a few web development experience during the internship. <br><br> I am passionate about creating clean & user-friendly websites. I am extremely enjoy the process of developing a website, and have a strong willingness to learn new things to develop cool stuff. 
+          <br><br>Here are a few technologies I've been working with recently:
+          </p>
+              
+          <p style="color:#F8E080">>> <span> HTML </span><span> CSS </span><span> Javascript</span></p>
+          <p style="color:#F8E080">>> <span>Adobe XD </span><span> Adobe AI </span><span> Adobe PS</span></p>
+          <p style="color:#F8E080">>> <span>WordPress</span></p>
+        </div>
+        <div class="imgContainer opacity">
+          <img src="/img/portfolio.png" alt="">
+        </div>
+      </div>
+    </section>
+
+
+    <!-- PROJECT SHOWCASE -->
+    <section id="experience">
+      
+      <img class="hollow-text" src="/img/project.svg" alt="">
+
+      <!-- slider settings -->
+      <div class="carousel">
+
+        <div class="slider">
+          
+          <!-- the first project: TST GROUP -->         
+          <div class="experience-container active">
+            <div class="project-container">
+              <img src="/img/project-img/TST.png" style="width: 100%;" alt="">                
+            </div>
+
+            <div class="title-right">
+              <!-- <div class="project-logo"><img src="/img/logo/TST_LOGO.png" alt=""></div> -->
+              <p class="subtitle">MY CONTRIBUTION TO THE PROJECT</p>
+              <p class="text">
+                I was working as an Intern at 
+                <a class="inner-link" href="https://tstbizmigration.com.au/" target="_blank" >TST Group</a>, and I was responsible for designing and developing the company website on <strong style="color:#F8E080;font-weight: 500;">WordPress</strong> at that time. I posted articles on the website weekly, and to customise page layout, animation and so on.
+              </p>
+              <p class="text">
+                This was my first time to work on Wordpress which is insterested me. The project inspired me to become a web developer afterwards.
+              </p>          
+            </div>
+
+          </div>
+
+          <!-- the second project: Mustard Seed Lawyers -->
+          <div class="experience-container">
+            <div class="project-container">
+              <img src="/img/project-img/mustard.png" style="width: 100%;" alt="">  
+            </div>
+            <div class="title-right">
+              <!-- <div class="project-logo"><img src="/img/logo/mustardseedlawyers.png" alt=""></div> -->
+              <p class="subtitle">DEVELOPMENT STORY FOR THE CASE STUDY</p>
+              <p class="text">
+                After TST Group internship finished, I decided to learn more about web development and try to develop a real website by <strong  style="color: #F8E080; font-weight: 500;">HTML & CSS & Javascript</strong>. 
+              </p>
+              <p class="text">
+                My manager was supper happy when I expressed my idea and asked for her permission to help them build a company website. <a class="inner-link" href="#" target="_blank" >Mustard Seed Lawyers</a> Project is the first website that I develop all by my own. I use <strong style="color: #F8E080; font-weight: 500;"> Adobe XD</strong> to design a mockup, and use <strong style="color:#F8E080; font-weight: 500;">Adobe AI</strong> to custormise LOGO and images. The project is still under developing and will be done sooner.              
+              </p>
+            </div>
+          </div>
+
+          <!-- the third project: Personal Portfolio -->
+          <div class="experience-container">
+            <div class="project-container">
+              <img src="/img/project-img/mustard.png" style="width: 100%;" alt="">  
+            </div>
+            <div class="title-left">
+              <div class="project-logo"></div>
+              <p class="text">                            
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <!-- slider control -->
+      <div class="control">
+        <div class="arrow left"><i class="fas fa-angle-double-left fa-3x"></i></div>
+
+        <div class="page-number">
+          <h1 class="number active">01</h1>
+          <h1 class="number">02</h1>
+          <h1 class="number">03</h1>
+        </div>
+
+        <div class="arrow right"><i class="fas fa-angle-double-right fa-3x"></i></div>
+      </div>
+    </section>
+    
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+          
+        <lottie-player class="lottie-gif" src="https://assets4.lottiefiles.com/packages/lf20_nnQHiM.json"  background="transparent"  speed="1"  style="width: 500px; height: 500px;"  loop  autoplay>
+        </lottie-player>
+
+        <div class="contact-me contect-opacity">
+          <h3 class="title">
+            Get In Touch
+            <!-- <div class="border"></div>   -->
+          </h3>
+          <p class="text">I am open to all opportunities. My inbox is always open if you have any questions of just want to say hi, I will try to get back to you.</p>
+
+          <div class="social">          
+              <a class="email" data-clipboard-text="Click to copy my email address to your clipboard &#x270d"><i class="far fa-envelope"></i></a> 
+              <div class="popup">
+                Copied &#9996;
+              </div>      
+          
+              <a href="https://www.linkedin.com/in/yumeng-li-7b0993184/?jobid=1234" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          
+              <a href="https://github.com/YumeLoL" target="_blank"><i class="fab fa-github"></i></a>    
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="copyright">
+      <p>Designed and Built by Yumeng Li </p>
+    </div>
+  </div>
+
+
+  <!-- PRELOADER -->
+  <div class="preloader">
+    <div class="preloader-logoMove">
+      <svg class="dots" xmlns="http://www.w3.org/2000/svg" width="60" height="83" viewBox="0 0 68 84">
+        <g class="big-dot" data-name="Group 8" transform="translate(-67 -28)">      
+          <circle id="Ellipse_29" data-name="Ellipse 29" cx="5" cy="5" r="5" transform="translate(106 28)" fill="#f8e080"/>
+          <circle id="Ellipse_30" data-name="Ellipse 30" cx="5" cy="5" r="5" transform="translate(106 102)" fill="#f8e080"/>
+          <circle id="Ellipse_34" data-name="Ellipse 34" cx="5" cy="5" r="5" transform="translate(87 98)" fill="#f8e080"/>
+          <circle id="Ellipse_35" data-name="Ellipse 35" cx="5" cy="5" r="5" transform="translate(72 84)" fill="#f8e080"/>
+          <circle id="Ellipse_36" data-name="Ellipse 36" cx="5" cy="5" r="5" transform="translate(67 65)" fill="#f8e080"/>
+          <circle id="Ellipse_35-2" data-name="Ellipse 35" cx="5" cy="5" r="5" transform="translate(72 46)" fill="#f8e080"/>
+          <circle id="Ellipse_37" data-name="Ellipse 37" cx="5" cy="5" r="5" transform="translate(86 33)" fill="#f8e080"/>
+          <circle id="Ellipse_34-2" data-name="Ellipse 34" cx="5" cy="5" r="5" transform="translate(125 98)" fill="#f8e080"/>
+          <circle id="Ellipse_38" data-name="Ellipse 38" cx="5" cy="5" r="5" transform="translate(125 33)" fill="#f8e080"/>
+        </g>
+
+        <g class="small-dot" data-name="Group 8" transform="translate(-67 -28)">
+          <circle id="Ellipse_41" style="--i:1;" data-name="Ellipse 41" cx="3" cy="3" r="3" transform="translate(106.716 45.919) rotate(11)" fill="#bc6677"/>
+          <circle id="Ellipse_46" style="--i:2;" data-name="Ellipse 46" cx="3" cy="3" r="3" transform="translate(119.522 50.456) rotate(11)" fill="#bc6677"/>
+          <circle id="Ellipse_47" style="--i:3;" data-name="Ellipse 47" cx="3" cy="3" r="3" transform="translate(93.716 49.919) rotate(11)" fill="#bc6677"/>
+          <circle id="Ellipse_48" data-name="Ellipse 48" cx="3" cy="3" r="3" transform="translate(85.716 60.919) rotate(11)" fill="#bc6677"/>
+          <circle id="Ellipse_49" data-name="Ellipse 49" cx="3" cy="3" r="3" transform="translate(85.716 73.919) rotate(11)" fill="#bc6677"/>
+          <circle id="Ellipse_50" data-name="Ellipse 50" cx="3" cy="3" r="3" transform="translate(93.716 84.919) rotate(11)" fill="#bc6677"/>
+          <circle id="Ellipse_51" data-name="Ellipse 51" cx="3" cy="3" r="3" transform="translate(106.522 88.456) rotate(11)" fill="#bc6677"/>
+          <circle id="Ellipse_52" data-name="Ellipse 52" cx="3" cy="3" r="3" transform="translate(119.522 85.456) rotate(11)" fill="#bc6677"/>
+        </g>
+      </svg>
+
+      <svg class="preloader-text" xmlns="http://www.w3.org/2000/svg" width="383.006" height="98.325" viewBox="0 0 383.006 98.325">
+        <path id="Union_1" data-name="Union 1" d="M-343.6,86.237V33.274h20.724V86.493q0,22.26,17.4,22.26,17.078,0,17.078-21.492V33.274h20.66v52q0,41.321-38.507,41.322Q-343.6,126.6-343.6,86.237ZM-123.51,125V33.274h52.9V50.1h-32.238V70.5h30V87.26h-30v20.981H-68.5V125Zm-44.353,0V70.118q0-8.891.768-19.637h-.512q-.447,2.047-1.023,4.093t-1.151,3.87q-.576,1.824-1.12,3.263t-.928,2.335l-17.4,33.454h-14.456l-16.823-33.582q-.257-.575-.7-1.823t-.959-3.006q-.512-1.759-1.056-3.934t-.928-4.669h-.575q.448,6.013.64,11.065t.192,8.508V125H-242.51V33.274h25.33L-201,65.129q.7,1.535,1.407,3.262t1.375,3.454q.672,1.727,1.216,3.358a22.434,22.434,0,0,1,.8,3.038h.32q.385-1.407.832-3.166t.959-3.55q.512-1.791,1.088-3.487A28.071,28.071,0,0,1-191.786,65l16.631-31.727h25.842V125ZM-415.9,125V92.761L-445,33.274h23.6L-406.621,67.5q.385.96,2.111,7.484h.256a33.331,33.331,0,0,1,1.983-7.228l15.032-34.477h21.876l-29.872,59.1V125Z" transform="translate(449.006 -30.774)" fill="none" stroke="#923b4c" stroke-width="5"/>
+      </svg>
+    </div>
+  </div>
+    
+  <!-- Back To Top Button -->
+  <div id="back-button">
+    <img class="rocket" src="/img/rocket.svg" alt="">
+    <img class="fire" src="/img/fire.svg" alt="">
+  </div>
+  <!-- Back To Top Button End-->
+
+
+
+
+  <!-- Javascript -->
+  <script src="movement.js"></script>
+
+  <!-- Whatsapp chatbot widget-->
+ 
+  <!-- whatsapp chabot end -->
+  
+  <!--  -->
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</body>
+</html>

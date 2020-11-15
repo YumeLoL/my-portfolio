@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="179" height="63" viewBox="0 0 179 63">
+  <g id="Group_3" data-name="Group 3" transform="translate(-38 -38)">
+    <g id="Group_1" data-name="Group 1" transform="translate(9 -3)">
+      <circle id="Ellipse_2" data-name="Ellipse 2" cx="2.5" cy="2.5" r="2.5" transform="translate(58 41)" fill="#f8e080"/>
+      <circle id="Ellipse_3" data-name="Ellipse 3" cx="2.5" cy="2.5" r="2.5" transform="translate(44 45)" fill="#f8e080"/>
+      <circle id="Ellipse_4" data-name="Ellipse 4" cx="2.5" cy="2.5" r="2.5" transform="translate(29 70)" fill="#f8e080"/>
+      <circle id="Ellipse_5" data-name="Ellipse 5" cx="2.5" cy="2.5" r="2.5" transform="translate(58 99)" fill="#f8e080"/>
+      <circle id="Ellipse_6" data-name="Ellipse 6" cx="2.5" cy="2.5" r="2.5" transform="translate(34 54)" fill="#f8e080"/>
+      <circle id="Ellipse_7" data-name="Ellipse 7" cx="2.5" cy="2.5" r="2.5" transform="translate(72 45)" fill="#f8e080"/>
+      <circle id="Ellipse_8" data-name="Ellipse 8" cx="2.5" cy="2.5" r="2.5" transform="translate(82 54)" fill="#f8e080"/>
+      <circle id="Ellipse_9" data-name="Ellipse 9" cx="2.5" cy="2.5" r="2.5" transform="translate(34 85)" fill="#f8e080"/>
+      <circle id="Ellipse_10" data-name="Ellipse 10" cx="2.5" cy="2.5" r="2.5" transform="translate(44 95)" fill="#f8e080"/>
+      <circle id="Ellipse_11" data-name="Ellipse 11" cx="2.5" cy="2.5" r="2.5" transform="translate(72 95)" fill="#f8e080"/>
+      <circle id="Ellipse_12" data-name="Ellipse 12" cx="2.5" cy="2.5" r="2.5" transform="translate(82 85)" fill="#f8e080"/>
+      <circle id="Ellipse_13" data-name="Ellipse 13" cx="1.5" cy="1.5" r="1.5" transform="translate(59 49)" fill="#bc6677"/>
+      <circle id="Ellipse_14" data-name="Ellipse 14" cx="1.5" cy="1.5" r="1.5" transform="translate(42 58)" fill="#bc6677"/>
+      <circle id="Ellipse_15" data-name="Ellipse 15" cx="1.5" cy="1.5" r="1.5" transform="translate(76 58)" fill="#bc6677"/>
+      <circle id="Ellipse_16" data-name="Ellipse 16" cx="1.5" cy="1.5" r="1.5" transform="translate(59 93)" fill="#bc6677"/>
+      <circle id="Ellipse_17" data-name="Ellipse 17" cx="1.5" cy="1.5" r="1.5" transform="translate(76 84)" fill="#bc6677"/>
+      <circle id="Ellipse_18" data-name="Ellipse 18" cx="1.5" cy="1.5" r="1.5" transform="translate(42 84)" fill="#bc6677"/>
+      <circle id="Ellipse_19" data-name="Ellipse 19" cx="1.5" cy="1.5" r="1.5" transform="translate(38 71)" fill="#bc6677"/>
+      <circle id="Ellipse_21" data-name="Ellipse 21" cx="1.5" cy="1.5" r="1.5" transform="translate(49 52)" fill="#bc6677"/>
+      <circle id="Ellipse_22" data-name="Ellipse 22" cx="1.5" cy="1.5" r="1.5" transform="translate(49 90)" fill="#bc6677"/>
+      <circle id="Ellipse_23" data-name="Ellipse 23" cx="1.5" cy="1.5" r="1.5" transform="translate(70 90)" fill="#bc6677"/>
+      <circle id="Ellipse_24" data-name="Ellipse 24" cx="1.5" cy="1.5" r="1.5" transform="translate(70 52)" fill="#bc6677"/>
+    </g>
+    <g id="Group_2" data-name="Group 2" transform="translate(-2 1)">
+      <text id="YUME" transform="translate(102 83)" fill="#923b4c" font-size="37" font-family="HanWangYenLight" letter-spacing="0.2em"><tspan x="0" y="0">YUME</tspan></text>
+      <path id="Path_4" data-name="Path 4" d="M98.6,127.118c.469-.008,14.946.116,15.534.116s.632,1.387,0,1.4-14.981.015-15.534,0S98.13,127.126,98.6,127.118Z" transform="translate(9.766 -69.741)" fill="#923b4c"/>
+      <path id="Path_5" data-name="Path 5" d="M98.582,127.118c.449-.008,14.306.116,14.869.116s.605,1.387,0,1.4-14.34.015-14.869,0S98.133,127.126,98.582,127.118Z" transform="translate(38.468 -69.741)" fill="#923b4c"/>
+      <path id="Path_6" data-name="Path 6" d="M98.431,127.118c.264-.008,8.4.117,8.734.117s.355,1.4,0,1.419-8.424.015-8.734,0S98.167,127.126,98.431,127.118Z" transform="translate(80.934 -45.76)" fill="#923b4c"/>
+      <path id="Path_7" data-name="Path 7" d="M98.58,127.118c.446-.009,14.2.13,14.764.13s.6,1.564,0,1.58-14.238.017-14.764,0S98.134,127.127,98.58,127.118Z" transform="matrix(0.848, -0.53, 0.53, 0.848, 51.898, 9.992)" fill="#923b4c"/>
+    </g>
+  </g>
+</svg>

@@ -84,7 +84,7 @@ a {
   }
 }
 .preloader .preloader-logoMove {
-  animation: logoMove .5s linear 2s forwards;
+  animation: logoMove .7s linear 2s forwards;
 }
 @keyframes logoMove {
   0% {
@@ -708,7 +708,7 @@ a {
 /* slider page number changing setting */
 #experience .control .page-number {
   position: relative;
-  left: -52rem;
+  left: -42rem;
   top: -20rem;
 }
 #experience .control .page-number .number {
@@ -902,6 +902,20 @@ a {
 
 
 @media screen and (max-width:1700px){
+  @keyframes logoMove {
+    0% {
+      transform: translate(0,0) scale(1);
+      opacity: 1;
+    }
+    70% {
+      opacity: 0;
+    }
+    100% {
+      transform: translate(-180%,-550%) scale(0);
+      opacity: 0;
+    }
+  }
+
   #header{
     height: 95vh;
   }
@@ -935,6 +949,27 @@ a {
 }
 
 @media screen and (max-width:1400px){
+  .preloader .preloader-text {
+    transform: scale(.8);
+  }
+  .preloader .dots {
+    transform: scale(1.4);
+    margin-right: 1rem;
+  }
+  @keyframes logoMove {
+    0% {
+      transform: translate(0,0) scale(.8);
+      opacity: 1;
+    }
+    40% {
+      opacity: 0;
+    }
+    100% {
+      transform: translate(-180%,-800%) scale(0);
+      opacity: 0;
+    }
+  }
+
   #header nav .container img {
     transform: scale(.8);
   }
@@ -1030,6 +1065,30 @@ a {
 }
 
 @media screen and (max-width:1024px){ 
+  .preloader .preloader-text {
+    transform: scale(.6);
+  }
+  .preloader .dots {
+    transform: scale(1.2);
+    margin-right:0;
+    position: relative;
+    top: 0rem;
+    left: 3rem;
+  }
+  @keyframes logoMove {
+    0% {
+      transform: translate(0,0) scale(.8);
+      opacity: 1;
+    }
+    30% {
+      opacity: 0;
+    }
+    100% {
+      transform: translate(-180%,-900%) scale(0);
+      opacity: 0;
+    }
+  }
+
   html {
     width: 105%;
     overflow-x: hidden;
@@ -1136,6 +1195,17 @@ a {
 
 }
 @media screen and (max-width: 768px) {
+  @keyframes logoMove {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(0);
+      opacity: 0;
+    }
+  }
+
   #header nav {
     padding: .2rem 0;
   }
@@ -1227,6 +1297,27 @@ a {
   }
 }
 @media screen and (max-width: 420px) {
+  .preloader .preloader-text {
+    transform: scale(.3);
+  }
+  .preloader .dots {
+    transform: scale(.8);
+    margin-right:0;
+    position: relative;
+    top: 6rem;
+    left: 4rem;
+  }
+  @keyframes logoMove {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(0);
+      opacity: 0;
+    }
+  }
+
   #header{
     height: 60vh;
   }

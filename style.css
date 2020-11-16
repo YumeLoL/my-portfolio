@@ -896,6 +896,388 @@ a {
 
 
 
+@media screen and (max-width:1700px){
+  #header{
+    height: 95vh;
+  }
+  #header .me {
+    width: 60%;
+  }
+
+  #experience .hollow-text {
+    transform: scale(3);  
+  }
+  #experience .carousel{
+    width: 85rem;
+    height: 90%;
+  }
+  #experience .carousel .slider .experience-container {
+    padding: 0 8rem;
+  }
+  #experience .carousel .slider .experience-container .title-right .subtitle{
+    font-size: 2.5rem;
+  }
+  #experience .control .page-number {
+    left: -38rem;
+    top: -18rem;
+  }
+  #experience .control .page-number .number {
+    font-size: 5rem;
+  }
+  #experience .control .page-number::before {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width:1400px){
+  #header nav .container img {
+    transform: scale(.8);
+  }
+
+  #header{
+    height: 90vh;
+  }
+  #header .big-title {
+    top: 40%;
+    line-height: .6;
+  }
+  #header .big-title span{
+    font-size: 4rem;
+  }
+  #header .big-title span strong {
+    font-size: 5rem;
+  }
+  #header .big-title {
+    top: 40%;
+  }
+  #header .me {
+    width: 70%;
+  }
+
+  #about-me {
+    height: 90vh;
+  }
+  #about-me .container {
+    width: 65rem;
+    column-gap: 0rem;
+    padding: 1rem;
+  }
+  #about-me .container .content {
+    padding: 0 2rem;
+  }
+  #about-me .container .content .title {
+    font-size: 3rem;
+  }
+  #about-me .container .content .text {
+    font-size: 1rem;
+    line-height: 1.3;
+  }
+  #about-me .container .content span {
+    font-size: 1rem;
+  }
+  #about-me .container .imgContainer {
+    max-width: 80%;
+  }
+
+  #experience {
+    height: 90vh;
+    padding: 0 1rem;
+  }
+  #experience .hollow-text {
+    transform: scale(2);  
+  }
+  #experience .carousel .slider .experience-container {
+    padding: 0 5rem;
+  }
+  #experience .carousel .slider .experience-container .title-right .subtitle{
+    font-size: 2rem;
+  }
+  #experience .control .page-number {
+    left: -20rem;
+    top: -15rem;
+  }
+  #experience .control .page-number .number {
+    font-size: 4rem;
+  }
+  #experience .control .page-number::before {
+    font-size: 1.5rem;
+    top: -3rem;
+    left: 5.5rem;
+  }
+  #experience .control {
+    width: 95%;
+  }
+  #experience .control .arrow i {
+    margin: 0 1rem;
+    font-size: 2rem;
+  }
+
+  #contact .container .lottie-gif {
+    width: 400px;
+  }
+  #contact .contact-me .title {
+    margin-bottom: 0rem;
+    padding-bottom: 0rem;
+  }
+  #contact .contact-me .text {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width:1024px){ 
+  #header{
+    height: 80vh;
+  }
+  #header .me {
+    width: 80%;
+  }
+  #header .background {
+    width: 120%; 
+  }
+  #header .trees {
+    width: 95%;
+    bottom: -100px;
+  }
+  #header .cloud3 {
+    top: -50px;
+    left: 50px;
+  }
+  #header .cloud5 {
+    bottom: 600px;
+    right: 0px;
+  } 
+  #header .cloud6 {
+    top: 200px;
+    right: -250px;
+  } 
+  #header .big-title {
+    top: 40%;
+    line-height: .3; 
+  }
+  #header .big-title span{
+    font-size: 3.5rem;
+  }
+  #header .big-title span strong {
+    font-size: 4rem;
+  }
+ 
+
+  #about-me {
+    height: 120vh;
+  }
+  #about-me .container {
+    grid-template-columns: 1fr;
+    width: 50rem;
+  }
+  #about-me .container .imgContainer {
+    max-width: 60%;
+  }
+  #about-me .container .content .title {
+    font-size: 2.5rem;
+  }
+
+  #experience {
+    height: 120vh;
+  }
+  #experience .hollow-text {
+    left: 50%; 
+    top: 0;
+    transform: scale(1.8);
+  }
+  #experience .carousel .slider .experience-container {
+    grid-template-columns: 1fr;
+    padding: 0 7rem;
+  }
+  #experience .carousel .slider .experience-container .title-right .text {
+    font-size: 1rem;
+  }
+  #experience .carousel .slider .experience-container .project-container {
+    width: 100%;
+    height: 80%;
+  }
+  #experience .control .page-number {
+    left: -17rem;
+    top: -30rem;
+  }
+  #experience .control .page-number .number {
+    font-size: 3rem;
+  }
+  #experience .control .page-number::before {
+    font-size: 1.3rem;
+    left: 4.5rem;
+  }
+  #experience .control {
+    width: 85%;
+  }
+
+  #contact .container {
+    width: 80%;
+    grid-template-columns: 1fr;
+  }
+  #contact .container .lottie-gif {
+    width: 400px;
+  }
+  #contact .contact-me .title {
+    margin-bottom: 0rem;
+    padding-bottom: 0rem;
+  }
+  #contact .contact-me .text {
+    font-size: 1rem;
+  }
+
+}
+@media screen and (max-width: 768px) {
+  #header nav {
+    padding: .2rem 0;
+  }
+  #header nav .container {
+    padding: 0rem;
+  }
+  #header nav .container img {
+    display: none;
+  }
+  #header .container label {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  /* menu button */
+  #header .container .location {
+    right: 1rem;
+  }
+  /* when click menubar, close-bar appears */
+  .location::before,
+  .location::after {
+    top: .8rem;
+    width: 1.5rem;
+    height: 1.5px;
+  }
+  /* menu-list setting */
+  #header .container .menu-list {
+    top: 6rem;
+    right: .8rem;
+  }
+
+  #header{
+    height: 70vh;
+  }
+  #header .big-title span{
+    font-size: 2.5rem;
+  }
+  #header .big-title span strong {
+    font-size: 3rem;
+  }
+
+  #about-me .container {
+    width: 35rem;
+  }
+  #about-me .container .content .title {
+    font-size: 1.5rem;
+  }
+  #about-me .container .content .text {
+    max-width: max-content;
+  }
+
+  #experience .hollow-text {
+    left: 35%;
+    transform: scale(1.3);
+  }
+  #experience .carousel .slider .experience-container {
+    padding: 0 5rem;
+  }
+  #experience .carousel .slider .experience-container .title-right .subtitle {
+    font-size: 1.5rem;
+  }
+  #experience .control .page-number {
+    left: -15rem;
+  }
+  #experience .control .page-number::before {
+    font-size: 1.3rem;
+    left: 3.2rem;
+    top: -2rem;
+  }
+  #experience .control {
+    width: 95%;
+  }
+
+  #contact .contact-me .title {
+    font-size: 1.5rem;
+  }
+  #contact .contact-me .social i {
+    font-size: 1.2rem;
+  }
+  /* copy to paste */
+  #contact .contact-me .social .email::before {
+    left: -2rem;
+    top: -2rem;
+    width: 10.5rem;
+  }
+  #contact .contact-me .social .popup {
+    left: -1.5rem;
+    font-size: .8rem;
+  }
+}
+@media screen and (max-width: 420px) {
+  #header{
+    height: 60vh;
+  }
+  #header .big-title span{
+    font-size: 1.5rem;
+    margin-bottom: 0;
+  }
+  #header .big-title span strong {
+    font-size: 2rem;
+  }
+  #header .me {
+    width: 100%;
+  }
+  #header .background {
+    width: 160%; 
+  }
+  #header .cloud5 {
+    bottom: 300px;
+    right: 0px;
+  } 
+  #header .cloud6 {
+    top: 300px;
+    right: -150px;
+  }
+
+  #about-me {
+    height: 100vh;
+  }
+  #about-me .container {
+    grid-template-columns: 22rem;
+  }
+  #about-me .container .content {
+    padding: 0 0.3rem;
+  }
+
+  #experience .hollow-text {
+    left: 40%; 
+    transform: scale(1.5);
+  }
+  #experience .carousel .slider .experience-container {
+    padding: 0 2rem;
+  }
+  #experience .control .page-number {
+    left: -10rem;
+    top: -30rem;
+  }
+ 
+  #contact .container {
+    width: 60%;
+    height: 50vh;
+  }
+  #contact .container .lottie-gif {
+    width: 300px;
+  }
+
+
+}
+
+
+
+
 
 
 

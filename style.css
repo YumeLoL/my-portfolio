@@ -760,6 +760,8 @@ a {
   align-items: center;
 }
 #contact .lottie-gif {
+  width: 500px;
+  height: 500px;
   display: flex;
   justify-self: center;
   align-self: center;

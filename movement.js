@@ -11,57 +11,52 @@ const header = document.querySelector("header");
 const shadow = document.querySelector(".shadow"); 
 
 // content & img effect, fistly to move up element location in style.css, and then to return it to its original place as scrolling the page in movement.js
-// const content = document.querySelector(".content");
-// const section = document.querySelector("section");
-// const image_container = document.querySelector(".imgContainer");
+const content = document.querySelector(".content");
+const section = document.querySelector("section");
+const image_container = document.querySelector(".imgContainer");
 
 // content & img opacity effect
-// const opacity = document.querySelectorAll(".opacity");
+const opacity = document.querySelectorAll(".opacity");
 
 
 // border effect
-// const border = document.querySelector(".border");
+const border = document.querySelector(".border");
 
-// let header_height = header.offsetHeight;
-// let section_height = section.offsetHeight;
+let header_height = header.offsetHeight;
+let section_height = section.offsetHeight;
 
-// window.addEventListener('scroll', () => {
-//   let scroll = window.pageYOffset;
+window.addEventListener('scroll', () => {
+  let scroll = window.pageYOffset;
 
-//   // content effect
-//   let sectionY = section.getBoundingClientRect();
+  // content effect
+  let sectionY = section.getBoundingClientRect();
 
-//   translatey.forEach(element => { 
-//     let speed = element.dataset.speed;
-//     element.style.transform = `translateY(${scroll * speed}px)`;
-//   })
-//   translatel.forEach(element => { 
-//     let speed = element.dataset.speed;
-//     element.style.transform = `translateX(-${scroll * speed}px)`;
-//   })
-//   translater.forEach(element => { 
-//     let speed = element.dataset.speed;
-//     element.style.transform = `translateX(${scroll * speed}px)`;
-//   })
+  translatey.forEach(element => { 
+    let speed = element.dataset.speed;
+    element.style.transform = `translateY(${scroll * speed}px)`;
+  })
+  translatel.forEach(element => { 
+    let speed = element.dataset.speed;
+    element.style.transform = `translateX(-${scroll * speed}px)`;
+  })
+  translater.forEach(element => { 
+    let speed = element.dataset.speed;
+    element.style.transform = `translateX(${scroll * speed}px)`;
+  })
 
   // content & img opacity effect 
-  // opacity.forEach(element => {
-  //   element.style.opacity = scroll / (sectionY.top + section_height );
-  // })
+  opacity.forEach(element => {
+    element.style.opacity = scroll / (sectionY.top + section_height );
+  })
 
-  // disapear big-title effect
-  big_title.style.opacity = - scroll / (header_height / 2) + 1;
 
 
   // shadow effect, to let black shadow increase
   shadow.style.height = `${scroll * .5 + 300}px`;
 
   // content & img effect
-  content.style.transform = `translateY(${scroll / (section_height + sectionY.top) * -50 + 50}px)`;
-  image_container.style.transform = `translateY(${scroll / (section_height + sectionY.top) * -50 + 50}px)`;
+  
 
-  // border effect
-  // border.style.width = `${scroll / (sectionY.top + section_height) * 30}%`;
 })
 // HEADER & ABOUT ME SETTING END
 

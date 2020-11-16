@@ -513,7 +513,10 @@ a {
   display: inline-block;
   margin-bottom: 4rem;
 }
-
+#header .big-title span strong {
+  color:#c54e3cdc; 
+  font-size: 6rem;
+}
 
 
 /* ABOUT ME */
@@ -1025,6 +1028,10 @@ a {
 }
 
 @media screen and (max-width:1024px){ 
+  html {
+    width: 105%;
+    overflow-x: hidden;
+  }
   #header{
     height: 80vh;
   }
@@ -1032,7 +1039,7 @@ a {
     width: 80%;
   }
   #header .background {
-    width: 120%; 
+    width: 100%; 
   }
   #header .trees {
     width: 95%;
@@ -1204,6 +1211,7 @@ a {
   }
   #contact .contact-me .social i {
     font-size: 1.2rem;
+    margin-bottom: 10rem;
   }
   /* copy to paste */
   #contact .contact-me .social .email::before {
@@ -1247,6 +1255,7 @@ a {
   }
   #about-me .container {
     grid-template-columns: 22rem;
+
   }
   #about-me .container .content {
     padding: 0 0.3rem;
@@ -1259,6 +1268,7 @@ a {
   #experience .carousel .slider .experience-container {
     padding: 0 2rem;
   }
+ 
   #experience .control .page-number {
     left: -10rem;
     top: -30rem;
@@ -1272,6 +1282,9 @@ a {
     width: 300px;
   }
 
+  #copyright p {
+    bottom: -19rem;
+  }
 
 }
 

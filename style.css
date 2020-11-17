@@ -570,7 +570,8 @@ a {
   transform: translateY(50px);
   border-radius: 31% 69% 66% 34% / 53% 35% 65% 47%;
   overflow: hidden;
-  width: 30rem;
+  width: 22rem;
+  filter: grayscale(1);
   animation: float 2s infinite alternate;
   box-shadow: 12px 12px 20px 1px rgba(0, 0, 0, 0.2);
 }

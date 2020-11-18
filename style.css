@@ -1101,14 +1101,11 @@ a {
   }
   @keyframes logoMove {
     0% {
-      transform: translate(0,0) scale(.8);
+      transform: scale(1);
       opacity: 1;
     }
-    30% {
-      opacity: 0;
-    }
     100% {
-      transform: translate(-180%,-900%) scale(0);
+      transform: scale(0);
       opacity: 0;
     }
   }
@@ -1347,7 +1344,6 @@ a {
   }
   #contact .contact-me .social i {
     font-size: 1.2rem;
-    /* margin-bottom: 10rem; */
   }
   /* copy to paste */
   #contact .contact-me .social .email::before {
@@ -1360,17 +1356,22 @@ a {
     font-size: .8rem;
   }
 }
+
 @media screen and (max-width: 420px) {
  
   .preloader .preloader-text {
-    transform: scale(.3);
+    width: 30%;
+    position: relative;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%,-50%);
   }
   .preloader .dots {
     transform: scale(.8);
     margin-right:0;
-    position: relative;
-    top: 6rem;
-    left: 4rem;
+    position: absolute;
+    top: -2.5rem;
+    left: 6rem;
   }
   @keyframes logoMove {
     0% {

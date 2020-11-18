@@ -88,11 +88,11 @@ a {
 }
 @keyframes logoMove {
   0% {
-    transform: translate(0,0) scale(1);
+    transform: scale(1);
     opacity: 1;
   }
   100% {
-    transform: translate(-180%,-450%) scale(0);
+    transform: scale(0);
     opacity: 0;
   }
 }
@@ -908,20 +908,6 @@ a {
 
 
 @media screen and (max-width:1700px){
-  @keyframes logoMove {
-    0% {
-      transform: translate(0,0) scale(1);
-      opacity: 1;
-    }
-    70% {
-      opacity: 0;
-    }
-    100% {
-      transform: translate(-180%,-550%) scale(0);
-      opacity: 0;
-    }
-  }
-
   #header{
     height: 95vh;
   }
@@ -961,19 +947,6 @@ a {
   .preloader .dots {
     transform: scale(1.4);
     margin-right: 1rem;
-  }
-  @keyframes logoMove {
-    0% {
-      transform: translate(0,0) scale(.8);
-      opacity: 1;
-    }
-    40% {
-      opacity: 0;
-    }
-    100% {
-      transform: translate(-180%,-800%) scale(0);
-      opacity: 0;
-    }
   }
 
   #header nav .container img {
@@ -1099,16 +1072,6 @@ a {
     top: 0rem;
     left: 3rem;
   }
-  @keyframes logoMove {
-    0% {
-      transform: scale(1);
-      opacity: 1;
-    }
-    100% {
-      transform: scale(0);
-      opacity: 0;
-    }
-  }
 
   html {
     width: 105%;
@@ -1232,17 +1195,6 @@ a {
 
 
 @media screen and (max-width: 768px) {
-  @keyframes logoMove {
-    0% {
-      transform: scale(1);
-      opacity: 1;
-    }
-    100% {
-      transform: scale(0);
-      opacity: 0;
-    }
-  }
-
   #header nav {
     padding: .2rem 0;
   }
@@ -1373,17 +1325,6 @@ a {
     top: -2.5rem;
     left: 6rem;
   }
-  @keyframes logoMove {
-    0% {
-      transform: scale(1);
-      opacity: 1;
-    }
-    100% {
-      transform: scale(0);
-      opacity: 0;
-    }
-  }
-
   #header{
     height: 60vh;
   }

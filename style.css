@@ -85,6 +85,8 @@ a {
 }
 .preloader .preloader-logoMove {
   animation: logoMove .7s linear 2s forwards;
+  
+  transform: scale(.8);
 }
 @keyframes logoMove {
   0% {
@@ -138,9 +140,10 @@ a {
   cursor: pointer; 
   z-index: 99;
   animation: backButton 1.5s ease-in-out infinite;
+
 }
 #back-button .rocket {
-  transform: scale(.8);
+  transform: scale(.6);
   position: relative;
 }
 #back-button .fire {
@@ -148,10 +151,11 @@ a {
   opacity: 0;
   bottom: 0;
   left: 22px;
+  transform: scale(.6);
 }
 #back-button .rocket:hover ~ .fire {
   opacity: 1;
-  bottom: -5px;
+  bottom: 0px;
   transition: all 80ms ease-in-out;
   animation: rocketLaunch .5s infinite linear;
 }
@@ -507,7 +511,7 @@ a {
   top: calc(50% - 2rem);
   line-height: 4rem;
   width:100%;
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: 600;
   color: #e2e2e2;
   z-index: 30;
@@ -519,7 +523,7 @@ a {
 }
 #header .big-title span strong {
   color:#c54e3cdc; 
-  font-size: 6rem;
+  font-size: 5rem;
 }
 
 
@@ -540,29 +544,29 @@ a {
   background: linear-gradient(to top, #0f0f0f, transparent);
 }
 #about-me .container {
-  max-width: 90rem;
+  max-width: 75rem;
   min-height: 50rem;
   padding: 3rem;
   display: grid;
-  grid-template-columns: 1fr .7fr;
-  column-gap: 5rem;
+  grid-template-columns: 1fr .6fr;
+  column-gap: 2rem;
   align-items: center;
   justify-items: center;
 }
 #about-me .container .content .title {
   font-weight: 600;
-  font-size: 4rem;
+  font-size: 3rem;
   margin-bottom: 1rem;
   padding-bottom: .5rem;
   position: relative;
   color: var(--yellow-color);
 }
 #about-me .container .content .text {
-  font-size: 1.4rem;
-  line-height: 1.5;
+  font-size: 1.2rem;
+  line-height: 1.3;
 }
 #about-me .container .content span {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 100;
   padding: 0 .5rem;
   color: var(--yellow-color);
@@ -574,7 +578,7 @@ a {
   transform: translateY(50px);
   border-radius: 31% 69% 66% 34% / 53% 35% 65% 47%;
   overflow: hidden;
-  width: 22rem;
+  width: 20rem;
   filter: grayscale(1);
   animation: float 2s infinite alternate;
   box-shadow: 12px 12px 20px 1px rgba(0, 0, 0, 0.2);
@@ -608,16 +612,16 @@ a {
 }
 #experience .hollow-text {
   position: absolute;
-  top: 6rem;
+  top: 5rem;
   left: 50%;
-  transform: scale(4);
+  transform: scale(3.5);
   opacity: .2;
   z-index: -1;
 }
 
 /* projects showcase container */
 #experience .carousel {
-  width: 100%;
+  width: 90%;
   height: 100%;
   z-index: 30;
   overflow: hidden;
@@ -658,7 +662,7 @@ a {
   align-items: center;
 }
 #experience .carousel .slider .experience-container .title-right .subtitle {
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: 700;
   line-height: 1;
   word-spacing: .5rem;
@@ -696,7 +700,7 @@ a {
   position: absolute;
   color: var(--yellow-color);
   z-index: 30;
-  width: 90%;
+  width: 80%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -714,12 +718,12 @@ a {
 /* slider page number changing setting */
 #experience .control .page-number {
   position: relative;
-  left: -42rem;
+  left: -40rem;
   top: -20rem;
 }
 #experience .control .page-number .number {
   position: absolute;
-  font-size: 6rem;
+  font-size: 5rem;
   font-weight: 500;
   line-height: 0;
   display: none;  
@@ -741,9 +745,9 @@ a {
 #experience .control .page-number::before {
   content: '/03';
   position: absolute;
-  font-size: 2rem;
+  font-size: 1.8rem;
   top: -3rem;
-  left: 7.5rem;
+  left: 6rem;
 
 }
 
@@ -759,15 +763,15 @@ a {
 }
 #contact .container {
   height: 100%;
-  width: 100%;
+  width: 80%;
   display: grid;
   grid-template-columns: 1fr 1.2fr;
   justify-content: center;
   align-items: center;
 }
 #contact .lottie-gif {
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
   display: flex;
   justify-self: center;
   align-self: center;
@@ -782,23 +786,13 @@ a {
 }
 #contact .contact-me .title {
   font-weight: 600;
-  font-size: 2rem;
-  margin-bottom: 1rem;
-  padding-bottom: .5rem;
+  font-size: 3rem;
   position: relative;
   color: var(--yellow-color);
 }
-#contact .contact-me .title .border {
-  position: absolute;
-  /* set width to 0%, to enlarge border in .js */
-  width: 10%;
-  height: 3px;
-  background: var(--yellow-color);
-  bottom: 0;
-  left: 0;
-}
+
 #contact .contact-me .text {
-  margin: 2rem 0;
+  margin: 1rem 0;
   font-size: 1.2rem;
   font-weight: 300;
 }
@@ -908,9 +902,9 @@ a {
 
 
 @media screen and (max-width:1700px){
-  /* #header{
-    height: 95vh;
-  } */
+  #header {
+    height: 100vh;
+  }
   #header .me {
     width: 60%;
   }
@@ -925,18 +919,16 @@ a {
   #experience .carousel .slider .experience-container {
     padding: 0 8rem;
   }
-  #experience .carousel .slider .experience-container .title-right .subtitle{
-    font-size: 2.5rem;
-  }
   #experience .control .page-number {
-    left: -38rem;
-    top: -18rem;
+    left: -37rem;
+    top: -16rem;
   }
   #experience .control .page-number .number {
-    font-size: 5rem;
+    font-size: 4rem;
   }
   #experience .control .page-number::before {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+    left: 4.5rem;
   }
 }
 
@@ -953,32 +945,45 @@ a {
     transform: scale(.8);
   }
 
-  #header{
-    height: 90vh;
-  }
+
   #header .big-title {
-    top: 40%;
+    top: 50%;
     line-height: .6;
   }
   #header .big-title span{
-    font-size: 4rem;
+    font-size: 3rem;
   }
   #header .big-title span strong {
-    font-size: 5rem;
+    font-size: 4rem;
   }
   #header .big-title {
     top: 40%;
   }
   #header .me {
-    width: 70%;
+    width: 60%;
   }
+  #header .trees {
+    bottom: -150px;
+  }
+  #header .cloud3 {
+    top: -290px;
+    left: -50px;
+  }
+  #header .cloud4 {
+    top: 90px;
+    left: -150px;
+  }
+  #header .cloud6 {
+    top: -100px;
+    right: -250px;
+  } 
 
   #about-me {
     height: 40rem;
   }
   #about-me .container {
     min-height: 40rem;
-    width: 65rem;
+    width: 60rem;
     column-gap: 0rem;
     padding: 1rem;
   }
@@ -1001,19 +1006,20 @@ a {
 
   #experience {
     height: 50rem;
+    width: 88%;
+    margin: auto;
     padding: 2rem 2rem 0 2rem;
   }
   #experience .hollow-text {
-    transform: scale(2);  
+    transform: scale(2.8);  
   }
   #experience .carousel .slider .experience-container {
-    padding: 0 2rem;  
-
+    padding: 0;  
   }
   #experience .carousel .slider .experience-container .project-container {
     width: 80%;
     margin-left: 5rem;
-    margin-right: 2rem;
+    margin-right: 2rem; 
   }
   #experience .carousel .slider .experience-container .title-right {
     width: 80%;
@@ -1027,19 +1033,19 @@ a {
     font-size: 1rem;
   }
   #experience .control .page-number {
-    left: -20rem;
-    top: -15rem;
+    left: -25rem;
+    top: -14rem;
   }
   #experience .control .page-number .number {
-    font-size: 4rem;
+    font-size: 3rem;
   }
   #experience .control .page-number::before {
-    font-size: 1.5rem;
-    top: -3rem;
-    left: 5.5rem;
+    font-size: 1.3rem;
+    top: -2rem;
+    left: 4rem;
   }
   #experience .control {
-    width: 88%;
+    width: 100%;
   }
   #experience .control .arrow i {
     margin: 0 1rem;
@@ -1048,13 +1054,16 @@ a {
 
   #contact {
     width: 95%;
+    margin: auto;
   }
   #contact .container .lottie-gif {
-    width: 400px;
+    width: 320px;
+    margin-right: 2rem;
   }
   #contact .contact-me .title {
     margin-bottom: 0rem;
     padding-bottom: 0rem;
+    font-size: 2rem;
   }
   #contact .contact-me .text {
     font-size: 1rem;
@@ -1073,63 +1082,45 @@ a {
     left: 3rem;
   }
 
-  html {
-    width: 105%;
-    overflow-x: hidden;
-  }
-  #header{
-    height: 80vh;
-  }
   #header .me {
-    width: 80%;
+    width: 70%;
+    left: 0rem;
   }
   #header .background {
     width: 100%; 
   }
-  #header .trees {
-    width: 95%;
-    bottom: -100px;
-  }
   #header .cloud3 {
-    top: -50px;
+    top: -190px;
     left: 50px;
   }
   #header .cloud5 {
     bottom: 600px;
-    right: 0px;
+    right: 100px;
   } 
   #header .cloud6 {
-    top: 200px;
+    top: 0px;
     right: -250px;
   } 
-  #header .big-title {
-    top: 40%;
-    line-height: .3; 
-  }
-  #header .big-title span{
-    font-size: 3.5rem;
-  }
-  #header .big-title span strong {
-    font-size: 4rem;
-  }
+
  
 
-  #about-me {
-    height: 50rem;
-  }
+
   #about-me .container {
     grid-template-columns: 1fr .5fr;
     width: 50rem;
     min-height: 40rem;
   }
   #about-me .container .imgContainer {
-    max-width: 70%;
+    max-width: 65%;
   }
   #about-me .container .content .title {
-    font-size: 2.5rem;
+    font-size: 1.7rem;
   }
 
+
   #experience {
+    margin: 10rem auto auto auto;
+    width: 80%;
     height: 50rem;
   }
   #experience .hollow-text {
@@ -1154,8 +1145,10 @@ a {
   #experience .carousel .slider .experience-container .title-right {
     margin: 0;
   }
+  #experience .carousel .slider .experience-container .title-right .subtitle{
+    font-size: 1.7rem;
+  }
   #experience .carousel .slider .experience-container .title-right .text {
-    font-size: 1rem;
     margin: 0 3rem;
   }
   #experience .carousel .slider .experience-container .project-container {
@@ -1171,9 +1164,7 @@ a {
     font-size: 1.3rem;
     left: 4.5rem;
   }
-  #experience .control {
-    width: 85%;
-  }
+
 
 
   #contact .container {
@@ -1187,10 +1178,9 @@ a {
   #contact .contact-me .title {
     margin-bottom: 0rem;
     padding-bottom: 0rem;
+    font-size: 1.7rem;
   }
-  #contact .contact-me .text {
-    font-size: 1rem;
-  }
+  
 }
 
 
@@ -1309,84 +1299,7 @@ a {
   }
 }
 
-@media screen and (max-width: 420px) {
- 
-  .preloader .preloader-text {
-    width: 30%;
-    position: relative;
-    top: 50%;
-    left: 60%;
-    transform: translate(-50%,-50%);
-  }
-  .preloader .dots {
-    transform: scale(.8);
-    margin-right:0;
-    position: absolute;
-    top: -2.5rem;
-    left: 6rem;
-  }
-  #header{
-    height: 60vh;
-  }
-  #header .big-title span{
-    font-size: 1.5rem;
-    margin-bottom: 0;
-  }
-  #header .big-title span strong {
-    font-size: 2rem;
-  }
-  #header .me {
-    width: 100%;
-  }
-  #header .background {
-    width: 160%; 
-  }
-  #header .cloud5 {
-    bottom: 300px;
-    right: 0px;
-  } 
-  #header .cloud6 {
-    top: 300px;
-    right: -150px;
-  }
 
-  #about-me {
-    height: 100vh;
-  }
-  #about-me .container {
-    grid-template-columns: 22rem;
-
-  }
-  #about-me .container .content {
-    padding: 0 0.3rem;
-  }
-
-  #experience .hollow-text {
-    left: 40%; 
-    transform: scale(1.5);
-  }
-  #experience .carousel .slider .experience-container {
-    padding: 0 2rem;
-  }
- 
-  #experience .control .page-number {
-    left: -10rem;
-    top: -30rem;
-  }
- 
-  #contact .container {
-    width: 60%;
-    height: 50vh;
-  }
-  #contact .container .lottie-gif {
-    width: 300px;
-  }
-
-  #copyright p {
-    bottom: -19rem;
-  }
-
-}
 
 
 

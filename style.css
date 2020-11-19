@@ -908,9 +908,9 @@ a {
 
 
 @media screen and (max-width:1700px){
-  #header{
+  /* #header{
     height: 95vh;
-  }
+  } */
   #header .me {
     width: 60%;
   }

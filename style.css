@@ -219,13 +219,6 @@ a {
 .opacity {
   opacity: 0;
 }
-#header .me {
-  width: 50%;
-  position: absolute;
-  bottom: -100px;
-  left: 0;
-  z-index: 20;
-}
 #header .background {
   width: 100%; 
   height: 100vh;
@@ -565,15 +558,19 @@ a {
   font-size: 1.2rem;
   line-height: 1.3;
 }
-#about-me .container .content span {
+/* #about-me .container .content span {
   font-size: 1.3rem;
   font-weight: 100;
   padding: 0 .5rem;
   color: var(--yellow-color);
+} */
+#about-me .container .skillsets p {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
 }
 
 /* about-me: photo setting */
-#about-me .container .imgContainer {
+/* #about-me .container .imgContainer {
   max-width: 100%;
   transform: translateY(50px);
   border-radius: 31% 69% 66% 34% / 53% 35% 65% 47%;
@@ -593,7 +590,7 @@ a {
 }
 #about-me .container .imgContainer img {
   width: 100%;
-}
+} */
 
 
 
